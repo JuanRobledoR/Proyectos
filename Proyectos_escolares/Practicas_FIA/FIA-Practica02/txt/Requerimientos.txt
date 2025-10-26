@@ -1,0 +1,20 @@
+Requerimientos y observaciones:
+
+1. Prioridad direccional para el ser.
+2. Punto inicial y final dentro del laberinto.
+3. Resolución mediante Búsqueda en anchura y Búsqueda en profundidad.
+4. Muestreo del mapa descubierto actual del laberinto.
+5. Muestreo del árbol generado actual.\
+6. Muestreo por decición o paso a paso en tiempo real. 
+
+
+Inst:
+I. Desarrollar el molde del mapa.
+II. Desarrollar la importación del mapa.
+III. 
+
+
+Estructura:
+
+
+-----------------------------------

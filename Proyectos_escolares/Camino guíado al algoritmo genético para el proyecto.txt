@@ -1,0 +1,59 @@
+
+Ejemplo de canción: Blinding Lights, The Weekend:
+
+Tempo: 171 BPM			array[0]
+Energía: 0.73			array[1]
+Bailabilidad: 0.52		array[2]
+Valencia (Positividad): 0.33	array[3]
+Acusticidad: 0.001		array[4]
+
+array = [171, 0.73, 0.51, 0.33, 0.001]
+
+
+PARAMETROS QUE DEVUELVE LA API DE SPOTIFY:
+
+Bailabilidad
+Energía
+Valencia
+Acusticidad
+Instrumentalidad
+Discurso
+Sonoridad
+Modo
+Tonalidad
+
+JSON EJEMPLO:
+{
+  "danceability": 0.514,
+  "energy": 0.73,
+  "key": 1,
+  "loudness": -5.934,
+  "mode": 1,
+  "speechiness": 0.0598,
+  "acousticness": 0.00146,
+  "instrumentalness": 0.0000954,
+  "valence": 0.334,
+  "tempo": 171.005
+}
+
+#Elegir todos los parámetros es contraproducente, por lo que se toman los más relevantes únicamente.
+
+PARÁMETROS:
+
+Núcleo del Mood				>Indispensables
+	->	energy
+	-> 	valence
+	->	danceability
+	->	tempo
+	
+Contexto y Textura			>Recomendables
+	->	acousticness
+	->	instrumentalness
+	
+Nicho y Técnicos			>Circunstanciales
+	->	spechiness
+	->	loudness
+	->	key
+
+
+
