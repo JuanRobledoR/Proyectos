@@ -1,0 +1,47 @@
+//Abrir archivo
+xdg-open nombre_archivo
+
+//Descargar git
+sudo apt update
+sudo apt install git
+sudo apt --fix-broken install
+
+//Configurar git
+git --version
+git config --global user.name "JuanRobledoR"
+git config --global user.email "juanrobledorangel@gmail.com"
+
+//Subir carpeta a repositorio en github
+cd <Carpeta a subir>
+git init
+git branch -M main
+git add .
+git commit -m "Versión inicial"
+git remote add origin https://github.com/JuanRobledoR/<NombreCarp>
+git push -u origin main
+
+//Clonar repositorio
+git clone <URL_Repositorio>
+
+//Subir contenido en github
+git status
+git add .
+git commit -m "mensaje"
+git push 
+	<origin main>
+	<origin master>
+	
+//Cargar contenido en github
+git pull
+	<origin main>
+
+
+//Error 1
+juan-robledo@juan-robledo-System:~/Escritorio/Proyectos$ git add .
+error: 'Proyectos_personales/FastAPI_Postgre/' no tiene un commit checked out
+fatal: falló al agregar archivos
+juan-robledo@juan-robledo-System:~/Escritorio/Proyectos$ 
+
+rm -rf Proyectos_personales/FastAPI_Postgre/.git
+git add .
+git status

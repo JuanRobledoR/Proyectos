@@ -1,0 +1,34 @@
+source venv/bin/activate
+
+#Instalar librerias
+pip install "fastapi[all]"
+
+#Ejecutar
+uvicorn main:app --reload
+--------------------------------------------------
+POSTGRESQL EN ENTORNO VIRTUAL
+
+#Iniciar el entorno virtual
+source venv/bin/activate
+
+#Instalar "psycopg" para la interacción con la bd
+pip install sqlalchemy psycopg2-binary
+--------------------------------------------------
+PONER TERMINAL EN MODO POSTGRESQL
+
+#Conección a postgresql
+psql -d postgres -U juan
+
+--------------------------------------------------
+ACTIVAR TKINTER EN PYTHON3:
+#Desactivar el venv
+deactivate
+
+#Descargar Tkinter antes de activar el venv
+sudo apt-get install python3-tk
+
+#Eliminar por completo el antiguo venv
+rm -rf venv
+--------------------------------------------------
+
+
